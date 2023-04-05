@@ -1,0 +1,51 @@
+body {
+	background-color: purple;
+	color: #4e3670;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.clock-face {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #3b1248;
+	border: 1em solid #ffffff;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50vh;
+	transform: translateY(-50%);
+}
+
+.hand {
+	position: absolute;
+	width: 50%;
+	top: 50%;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+}
+
+.hour-hand {
+	width: 50%;
+	height: 6px;
+	background-color: #ffffff;
+}
+
+.min-hand {
+	height: 6px;
+	background-color: #dbc5e1;
+}
+
+.sec-hand {
+	width: 50%;
+	height: 6px;
+	background-color: #c090d0;
+}
